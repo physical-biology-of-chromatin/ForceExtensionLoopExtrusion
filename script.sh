@@ -9,7 +9,7 @@ dir=2
 p=500.0
 ro=0.5
 km=1.0e-3
-Ea=5.0
+Ksmc=5.0
 fe=1.5
 fu=10.0
 Nlef=10
@@ -30,7 +30,7 @@ sed -i.back -e '8c\'$'\n '$dir' ::dir' input.dat
 sed -i.back -e '9c\'$'\n '$p' ::p' input.dat
 sed -i.back -e '10c\'$'\n '$ro' ::ro' input.dat
 sed -i.back -e '11c\'$'\n '$km' ::km0' input.dat
-sed -i.back -e '12c\'$'\n '$Ea' ::Ea' input.dat
+sed -i.back -e '12c\'$'\n '$Ksmc' ::Ksmc' input.dat
 sed -i.back -e '13c\'$'\n '$fe' ::Fe' input.dat
 sed -i.back -e '14c\'$'\n '$fu' ::Fu' input.dat
 sed -i.back -e '15c\'$'\n '$Nlef' ::Nlef' input.dat
