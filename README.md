@@ -8,7 +8,7 @@ Each line of `input.dat` corresponds to one parameter, in the order below:
 | Parameter  | Description                                                | 
 | ---------- | -----------------------------------------------------------| 
 | **Nchain** | Chain size (number of monomers) (in kbp)                   | 
-| **L**      | Box size (in `28.2` nm)                                    | 
+| **L**      | Box size                                                   | 
 | **Niter**  | Number of iterations                                       |
 | **Nequ**   | Number of Monte Carlo steps (MCSs) for equilibration       |
 | **Nmeas**  | Number of measurements                                     |
