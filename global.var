@@ -1,0 +1,21 @@
+integer	::L,Nchain,Niter,Nequ,Nmeas,Ninter,ikm,iku,ikb,Nlef,MCS,dir
+integer ::voisnn(13,13,13),opp(13),connec(13,13,13)
+ integer,dimension(2,500) ::config
+ integer,dimension(13,32000) ::bittable
+real,dimension(3,13)	::voisxyz
+real,dimension(13,13)	::costhet
+real	::kint,kb,ku,ku0,km0,km,Ksmc,Fext,Fe,Fu,Perm,p,ro
+ integer,dimension(5,10) ::contact
+ real,dimension(3,10) ::dleg
+ integer,dimension(500) ::boundary,state
+ real,dimension(3) ::eedz
+
+common/var1/L,Nchain,Niter,Nequ,Nmeas,Ninter,ikm,iku,ikb,Nlef,MCS,dir
+common/var3/voisnn,opp,connec
+common/var4/config,dleg,eedz
+common/var5/bittable
+common/var6/voisxyz
+common/var7/costhet
+common/var8/kint,kb,ku,ku0,km0,km,Ksmc,Fext,Fe,Fu,Perm,p,ro
+common/var9/boundary,state
+common/var10/contact
